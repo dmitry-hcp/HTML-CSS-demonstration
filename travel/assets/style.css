@@ -1,12 +1,46 @@
 @font-face {
     font-family: 'RedHatText'; 
-    src: url("assets/fonts/Red_Hat_Text/static/RedHatText-Medium"); 
+    src: url("assets/fonts/Red_Hat_Text/static/RedHatText-Medium.ttf"); 
+    font-weight: 500; 
 }
 
 @font-face {
     font-family: 'RedHatText'; 
-    src: url("assets/fonts/Red_Hat_Text/static/RedHatText-Regular"); 
+    src: url("assets/fonts/Red_Hat_Text/static/RedHatText-Regular.ttf");
+    font-weight: 400; 
 }
+
+@font-face {
+    font-family: 'Magra';
+    src: url("assets/fonts/Magra/Magra-Bold.ttf"); 
+    font-weight: 600; 
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('assets/fonts/Aleo/Aleo-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('assets/fonts/Aleo/Aleo-BoldItalic.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('assets/fonts/Aleo/Aleo-Italic.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('assets/fonts/Aleo/Aleo-Regular.ttf');
+    font-weight: 400;
+}
+
+
 
 
 * {
@@ -15,6 +49,8 @@
 
 body {
     font-family: 'RedHatText'; 
+    font-family: 'Magra';
+    font-family: 'Aleo';
 }
 
 .header {
