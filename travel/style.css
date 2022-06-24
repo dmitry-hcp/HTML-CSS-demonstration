@@ -48,24 +48,37 @@
 }
 
 body {
+    min-height: 100vh;
     display: flex; 
     flex-direction: column; 
-    justify-content: space-between; 
+    justify-content: space-between;
+    margin: 0 auto; 
+    /* margin: 0;
+    padding: 0; */
     width: 1440px;
     font-family: 'RedHatText'; 
     font-family: 'Magra';
     font-family: 'Aleo';
 }
 
+.container {
+    
+} 
+
 .header {
+    text-align: center;
     border: 1px solid red;
 }
 
 .main {
+    /* flex: 1 1 auto; */
+    text-align: center;
     border: 1px solid black;
 }
 
 .footer {
+    /* flex: 0 0 auto; */
+    text-align: center;
     border: 1px solid brown;
 }
 
