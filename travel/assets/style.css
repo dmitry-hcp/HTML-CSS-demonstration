@@ -48,12 +48,25 @@
 }
 
 body {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    width: 1440px;
     font-family: 'RedHatText'; 
     font-family: 'Magra';
     font-family: 'Aleo';
 }
 
 .header {
-    /* font-size: 16px; */
-    /* font-weight: 500; */
+    border: 1px solid red;
 }
+
+.main {
+    border: 1px solid black;
+}
+
+.footer {
+    border: 1px solid brown;
+}
+
+
