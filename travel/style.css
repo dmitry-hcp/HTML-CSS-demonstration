@@ -44,6 +44,8 @@
 
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box; 
 }
 
@@ -61,16 +63,117 @@ body {
     font-family: 'Aleo';
 }
 
-.container {
-    
-} 
-
 .header {
-    text-align: center;
-    border: 1px solid red;
+    /* height: 90px;  */
+    /* text-align: center; */
+    /* border: 1px solid rebeccapurple; */
+}
+
+.header-container {
+    height: 90px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(242, 120, 92, 0.7); 
+    /* border: 1px solid red; */
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.logo {
+    padding: 0 0 8px 120px;
+    /* left: 8.83%;
+    right: 89.58%; 
+    top: 0.7%;
+    bottom: 98.5%; 
+    height: 30px; 
+    height: 30px;  */
+    /* background-color: #ffffff; */
+    /* border: 1px solid black; */
+    /* padding: 0 0 8px 14px; */
+}
+
+.logo-text {
+    /* width: 180px;
+    height: 31px;
+    left: 156px;
+    top: 25px;  */
+    padding: 0 0 1px 6px;
+    font-family: 'Magra'; 
+    font-style: normal; 
+    font-weight: 600; 
+    font-size: 32px; 
+    line-height: 39px;
+    color: #ffffff;
+    /* border: 1px solid black; */
+}
+
+.nav-list {
+    display: flex; 
+    /* flex-direction: row; */
+    align-items: center; 
+    padding: 1px 0 0 166px; 
+    gap: 43px;
+    /* width: 527px;
+    height: 21px;
+    left: 494px;
+    top: 35px; */
+    list-style: none; 
+}
+
+.nav-link {
+    /* padding: 0 35px 0 0; */
+    font-family: 'RedHatText'; 
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 16px;
+    line-height: 21px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.button-path {
+    padding: 0 0 0 195px; 
+}
+
+.login-button {
+    display: flex; 
+    /* flex-direction: row;  */
+    justify-content: center; 
+    align-items: center; 
+    height: 41px; 
+    width: 103px; 
+    /* padding: 0 20px 0 0; */
+    /* padding: 10px;  */
+    /* gap: 10px; */
+    /* width: 103px;
+    height: 41px;
+    left: 1217px;
+    top: 25px;  */
+    border: none;
+    background-color: #0d606f;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16); 
+    border-radius: 10px;
+}
+
+.login-link {
+    width: 43px;
+    height: 21px;
+    font-family: 'RedHatText'; 
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 16px;
+    line-height: 21px;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .main {
+    margin-bottom: auto;
     /* flex: 1 1 auto; */
     text-align: center;
     border: 1px solid black;
