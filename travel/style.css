@@ -1,42 +1,42 @@
 @font-face {
-    font-family: 'RedHatText'; 
+    font-family: "RedHatText"; 
     src: url("assets/fonts/Red_Hat_Text/static/RedHatText-Medium.ttf"); 
     font-weight: 500; 
 }
 
 @font-face {
-    font-family: 'RedHatText'; 
+    font-family: "RedHatText"; 
     src: url("assets/fonts/Red_Hat_Text/static/RedHatText-Regular.ttf");
     font-weight: 400; 
 }
 
 @font-face {
-    font-family: 'Magra';
+    font-family: "Magra";
     src: url("assets/fonts/Magra/Magra-Bold.ttf"); 
     font-weight: 600; 
 }
 
 @font-face {
-    font-family: 'Aleo';
-    src: url('assets/fonts/Aleo/Aleo-Bold.ttf');
+    font-family: "Aleo-Bold";
+    src: url("assets/fonts/Aleo/Aleo-Bold.ttf");
     font-weight: 700;
 }
 
 @font-face {
-    font-family: 'Aleo';
-    src: url('assets/fonts/Aleo/Aleo-BoldItalic.ttf');
+    font-family: "Aleo-BoldItalic";
+    src: url("assets/fonts/Aleo/Aleo-BoldItalic.ttf");
     font-weight: 700;
 }
 
 @font-face {
-    font-family: 'Aleo';
-    src: url('assets/fonts/Aleo/Aleo-Italic.ttf');
+    font-family: "Aleo-Italic";
+    src: url("assets/fonts/Aleo/Aleo-Italic.ttf");
     font-weight: 400;
 }
 
 @font-face {
-    font-family: 'Aleo';
-    src: url('assets/fonts/Aleo/Aleo-Regular.ttf');
+    font-family: "Aleo";
+    src: url("assets/fonts/Aleo/Aleo-Regular.ttf");
     font-weight: 400;
 }
 
@@ -49,6 +49,7 @@
     box-sizing: border-box; 
 }
 
+
 body {
     min-height: 100vh;
     display: flex; 
@@ -58,16 +59,17 @@ body {
     /* margin: 0;
     padding: 0; */
     width: 1440px;
-    font-family: 'RedHatText'; 
-    font-family: 'Magra';
-    font-family: 'Aleo';
+    /* background: url("./assets/img/garrett-parker-DlkF4-dbCOU-unsplash\ 1.jpg") no-repeat; */
+    /* background-image: url("./assets/img/garrett-parker-DlkF4-dbCOU-unsplash\ 1.jpg");
+    background-repeat: no-repeat;  */
+    font-family: "RedHatText"; 
+    font-family: "Magra";
+    font-family: "Aleo";
+    font-family: "Aleo-Bold"; 
+    font-family: "Aleo-BoldItalic"; 
+    font-family: "Aleo-Italic";
 }
 
-.header {
-    /* height: 90px;  */
-    /* text-align: center; */
-    /* border: 1px solid rebeccapurple; */
-}
 
 .header-container {
     height: 90px;
@@ -75,59 +77,37 @@ body {
     justify-content: flex-start;
     align-items: center;
     background-color: rgba(242, 120, 92, 0.7); 
-    /* border: 1px solid red; */
 }
 
 .logo-title {
     display: flex;
     align-items: center;
-    /* border: 1px solid black; */
 }
 
 .logo {
     padding: 0 0 8px 120px;
-    /* left: 8.83%;
-    right: 89.58%; 
-    top: 0.7%;
-    bottom: 98.5%; 
-    height: 30px; 
-    height: 30px;  */
-    /* background-color: #ffffff; */
-    /* border: 1px solid black; */
-    /* padding: 0 0 8px 14px; */
 }
 
 .logo-text {
-    /* width: 180px;
-    height: 31px;
-    left: 156px;
-    top: 25px;  */
     padding: 0 0 1px 6px;
-    font-family: 'Magra'; 
+    font-family: "Magra"; 
     font-style: normal; 
     font-weight: 600; 
     font-size: 32px; 
     line-height: 39px;
     color: #ffffff;
-    /* border: 1px solid black; */
 }
 
 .nav-list {
     display: flex; 
-    /* flex-direction: row; */
     align-items: center; 
     padding: 1px 0 0 166px; 
     gap: 43px;
-    /* width: 527px;
-    height: 21px;
-    left: 494px;
-    top: 35px; */
     list-style: none; 
 }
 
 .nav-link {
-    /* padding: 0 35px 0 0; */
-    font-family: 'RedHatText'; 
+    font-family: "RedHatText"; 
     font-style: normal; 
     font-weight: 500; 
     font-size: 16px;
@@ -142,18 +122,10 @@ body {
 
 .login-button {
     display: flex; 
-    /* flex-direction: row;  */
     justify-content: center; 
     align-items: center; 
     height: 41px; 
     width: 103px; 
-    /* padding: 0 20px 0 0; */
-    /* padding: 10px;  */
-    /* gap: 10px; */
-    /* width: 103px;
-    height: 41px;
-    left: 1217px;
-    top: 25px;  */
     border: none;
     background-color: #0d606f;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16); 
@@ -172,15 +144,90 @@ body {
     text-decoration: none;
 }
 
+.wrapper-header-preview {
+    height: 765px;
+    background-image: url("./assets/img/garrett-parker-DlkF4-dbCOU-unsplash\ 1.jpg");
+    background-repeat: no-repeat; 
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+}
+
+.preview-section-title {
+    padding: 31px 0 0 120px;
+    font-family: "Aleo-Bold"; 
+    font-style: normal; 
+    font-weight: 700; 
+    font-size: 80px; 
+    line-height: 96px; 
+    color: #ffffff;
+}
+
+.section-text {
+    padding: 32px 0 0 120px; 
+    font-family: "Aleo-BoldItalic"; 
+    font-style: italic; 
+    font-weight: 700; 
+    font-size: 20px; 
+    line-height: 24px; 
+    color: #ffffff;
+}
+
+.search {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    margin: 47px 0 0 120px; 
+    width: 892px; 
+    height: 95px; 
+    background-color: rgba(255, 255, 255, 0.7); 
+    border: none;
+    border-radius: 16px;
+}
+
+.form-text {
+    padding: 0 0 0 41px; 
+    font-family: "Aleo-Italic"; 
+    font-style: italic; 
+    font-weight: 400; 
+    font-size: 24px; 
+    line-height: 29px; 
+    color: #f2785c;
+}
+
+.start-planning-button {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 0 0 0 326px;
+    width: 228px; 
+    height: 59px; 
+    border: none;
+    background-color: #0d606f; 
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16); 
+    border-radius: 10px; 
+}
+
+.start-planning-link {
+    font-family: "RedHatText"; 
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+    text-decoration: none; 
+}
+
 .main {
-    margin-bottom: auto;
-    /* flex: 1 1 auto; */
-    text-align: center;
-    border: 1px solid black;
+    margin-bottom: auto; 
+    text-align: center; 
 }
 
 .footer {
-    /* flex: 0 0 auto; */
     text-align: center;
     border: 1px solid brown;
 }
