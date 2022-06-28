@@ -224,7 +224,67 @@ section {
 
 .main {
     margin-bottom: auto; 
-    text-align: center; 
+}
+
+.main-container {
+    display: flex; 
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.three-steps-title {
+    padding: 80px 0 0 414px;
+    font-family: "RedHatText"; 
+    font-style: normal; 
+    font-weight: 500;  
+    font-size: 40px; 
+    line-height: 53px; 
+    text-transform: uppercase;
+    color: #f2785c;
+}
+
+.three-steps-img {
+    display: flex; 
+    justify-content: flex-start;
+    justify-content: flex-start; 
+    padding: 40px 0 0 0;
+}
+
+.pic-1 {
+    padding: 0 0 0 204px; 
+}
+
+.pic-2 {
+    padding: 0 0 0 366px; 
+}
+
+.pic-3 {
+    padding: 0 0 0 330px; 
+}
+
+.three-steps-text {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    padding: 30px 0 0 0;
+    font-family: "Aleo"; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 20px; 
+    line-height: 24px; 
+    color: #0d606f;
+}
+
+.text-1 {
+    padding: 0 0 0 131px;
+}
+
+.text-2 {
+    padding: 0 0 0 231px;
+}
+
+.text-3 {
+    padding: 0 0 0 161px;
 }
 
 .footer {
