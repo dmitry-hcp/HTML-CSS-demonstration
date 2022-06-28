@@ -222,9 +222,6 @@ section {
     text-decoration: none; 
 }
 
-.main {
-    /* margin-bottom: auto;  */
-}
 
 .main-container {
     display: flex; 
@@ -515,9 +512,6 @@ section {
     margin-bottom: auto; 
 }
 
-.footer {
-    
-}
 
 .footer-container {
     display: flex;
