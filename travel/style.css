@@ -223,7 +223,7 @@ section {
 }
 
 .main {
-    margin-bottom: auto; 
+    /* margin-bottom: auto;  */
 }
 
 .main-container {
@@ -367,10 +367,175 @@ section {
     color: #ffffff;
     text-decoration: none; 
 }
+.stories {
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.stories-wrapper {
+    width: 100%;
+    display: flex;
+    margin: 37px 0 0 0;
+    background-image: url("assets/img/Rectangle33.jpg");
+    /* opacity: 0.3; */
+    /* border: 1px solid black; */
+}
+
+.stories-title {
+    padding: 80px 0 0 553px;
+    font-family: "RedHatText"; 
+    font-style: normal; 
+    font-weight: 500;  
+    font-size: 40px; 
+    line-height: 53px; 
+    text-transform: uppercase;
+    color: #f2785c;
+}
+
+.stories-img-container {
+    display: flex; 
+    flex-direction: column; 
+    padding: 43px 0 0 120px; 
+    gap: 30px; 
+    /* z-index: 2; */
+}
+
+.story-img1 {
+    filter: drop-shadow(0px 4px 4px #0D606F);
+    border-radius: 16px;
+}
+
+.story-img2 {
+    filter: drop-shadow(0px 4px 4px #0D606F);
+    border-radius: 16px;
+}
+
+.story-img3 {
+    filter: drop-shadow(0px 4px 4px #0D606F);
+    border-radius: 16px;
+}
+
+.story-img4 {
+    filter: drop-shadow(0px 4px 4px #0D606F);
+    border-radius: 16px;
+}
+
+.stories-container {
+    padding: 43px 0 0 42px; 
+}
+
+.story-title1 {
+    font-family: "Aleo"; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 35px; 
+    line-height: 42px; 
+    color: #0d606f; 
+}
+
+.story-title2 {
+    padding: 50px 0 0 0;
+    font-family: "Aleo"; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 35px; 
+    line-height: 42px; 
+    color: #0d606f; 
+}
+
+.story-title3 {
+    padding: 50px 0 0 0;
+    font-family: "Aleo"; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 35px; 
+    line-height: 42px; 
+    color: #0d606f; 
+}
+
+.story-title4 {
+    padding: 50px 0 0 0;
+    font-family: "Aleo"; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 35px; 
+    line-height: 42px; 
+    color: #0d606f; 
+}
+
+.story-text1 {
+    padding: 22px 0 0 0; 
+    font-family: "Aleo"; 
+    font-style: normal; 
+    font-weight: 400;
+    font-size: 20px; 
+    line-height: 24px; 
+    color: #0d606f; 
+}
+
+.story-text2 {
+    padding: 22px 0 0 0; 
+    font-family: "Aleo"; 
+    font-style: normal; 
+    font-weight: 400;
+    font-size: 20px; 
+    line-height: 24px; 
+    color: #0d606f; 
+}
+
+.story-text3 {
+    padding: 22px 0 0 0; 
+    font-family: "Aleo"; 
+    font-style: normal; 
+    font-weight: 400;
+    font-size: 20px; 
+    line-height: 24px; 
+    color: #0d606f; 
+}
+
+.story-text4 {
+    padding: 22px 0 0 0; 
+    font-family: "Aleo"; 
+    font-style: normal; 
+    font-weight: 400;
+    font-size: 20px; 
+    line-height: 24px; 
+    color: #0d606f; 
+}
+
+.story-link {
+    font-family: "Aleo"; 
+    font-style: normal; 
+    font-weight: bold;
+    font-size: 20px; 
+    line-height: 24px; 
+    color: #0d606f; 
+}
+
+.wrapper-section-footer {
+    margin-bottom: auto; 
+}
 
 .footer {
-    text-align: center;
-    border: 1px solid brown;
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* border: 1px solid firebrick; */
+}
+
+.github-link {
+    padding: 0 10px; 
+    text-decoration: none; 
+    color: black;
+}
+.school-logo {
+    padding: 0 0 0 20px;
+    width: 70px; 
+    height: 35px; 
 }
 
 
