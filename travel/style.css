@@ -228,6 +228,7 @@ section {
 
 .main-container {
     display: flex; 
+    flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
 }
@@ -285,6 +286,86 @@ section {
 
 .text-3 {
     padding: 0 0 0 161px;
+}
+
+.destinations-title{
+    padding: 97px 0 0 471px;
+    font-family: "RedHatText"; 
+    font-style: normal; 
+    font-weight: 500;  
+    font-size: 40px; 
+    line-height: 53px; 
+    text-transform: uppercase;
+    color: #f2785c;
+}
+
+.destinations-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 46px 0 0 0;
+    gap: 60px; 
+    /* overflow: auto; */
+    overflow: hidden;
+}
+
+.slider-pic1 {
+    margin: 0 0 0 -540px;
+    border-radius: 16px; 
+}
+
+.slider-pic2 {
+    border-radius: 16px; 
+}
+
+.slider-pic3 {
+    margin: 0 -540px 0 0;
+    border-radius: 16px; 
+}
+
+.slider-ellips {
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    padding: 24px 0 0 2px;
+    gap: 10px; 
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 0 2px;
+}
+
+.find-button {
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+    width: 228px; 
+    height: 59px; 
+    background-color: #0d606f; 
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border: none;
+    border-radius: 10px; 
+}
+
+.arrow-ico {
+    padding: 0 0 0 33px; 
+}
+
+
+.find-link {
+    padding: 0 0 0 12px; 
+    font-family: "RedHatText"; 
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+    text-decoration: none; 
 }
 
 .footer {
