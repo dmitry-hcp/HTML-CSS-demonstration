@@ -58,11 +58,8 @@ body {
     margin: 0 auto; 
     /* margin: 0;
     padding: 0; */
-    width: 1440px;
-    /* background: url("./assets/img/garrett-parker-DlkF4-dbCOU-unsplash\ 1.jpg") no-repeat; */
-    /* background-image: url("./assets/img/garrett-parker-DlkF4-dbCOU-unsplash\ 1.jpg");
-    background-repeat: no-repeat;  */
-    font-family: "RedHatText"; 
+    /* width: 1440px; */
+    max-width: 1440px;
     font-family: "Magra";
     font-family: "Aleo";
     font-family: "Aleo-Bold"; 
@@ -86,6 +83,10 @@ body {
 
 .logo {
     padding: 0 0 8px 120px;
+}
+
+.logo-mobile {
+    display: none;
 }
 
 .logo-text {
@@ -148,6 +149,7 @@ body {
     height: 765px;
     background-image: url("./assets/img/garrett-parker-DlkF4-dbCOU-unsplash\ 1.jpg");
     background-repeat: no-repeat; 
+    /* background-size: 100%; */
 }
 
 section {
@@ -244,8 +246,7 @@ section {
 .three-steps-img {
     display: flex; 
     justify-content: flex-start;
-    justify-content: flex-start; 
-    padding: 40px 0 0 0;
+    padding: 40px 0 0 0; 
 }
 
 .pic-1 {
@@ -302,22 +303,24 @@ section {
     align-items: center;
     margin: 46px 0 0 0;
     gap: 60px; 
-    /* overflow: auto; */
     overflow: hidden;
 }
 
 .slider-pic1 {
     margin: 0 0 0 -540px;
     border-radius: 16px; 
+    /* max-width: 100%; */
 }
 
 .slider-pic2 {
     border-radius: 16px; 
+    /* max-width: 100%; */
 }
 
 .slider-pic3 {
     margin: 0 -540px 0 0;
     border-radius: 16px; 
+    /* max-width: 100%; */
 }
 
 .slider-ellips {
@@ -513,6 +516,7 @@ section {
     width: 100%;
     background-image: url("assets/img/Rectangle33.jpg");
     background-repeat: no-repeat;
+    /* background-size: 100%; */
 }
 
 
@@ -548,3 +552,67 @@ section {
 } */
 
 
+@media (max-width: 390px) {
+    .logo-text,
+    .nav-list,
+    .button-path,
+    .preview-section-title,
+    .section-text,
+    .destinations-img,
+    .slider-ellips,
+    .stories
+    {
+        display: none;
+    }
+    .wrapper-header-preview {
+        height: 251px;
+        background-image: url("./assets/img/garrett-parker-DlkF4-dbCOU-unsplash_mobile.jpg");
+        background-repeat: no-repeat; 
+    }
+
+    .header {
+        height: 50%;
+    }
+
+    .preview {
+        display: flex;
+        align-items: center;
+        height: 50%;
+    }
+
+    .header-container {
+        justify-content: space-between;
+        margin: 3.7% 0 0 0;
+        padding: 0 5.1% 0 4%;
+        background-color: rgba(242, 120, 92, 0); 
+    }
+
+    .logo {
+        padding: 0%;
+    }
+
+    .search {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+        margin: 0.6% 0.2% 0 0; 
+        width: 92.3%;
+        height: 38%; 
+    }
+
+    .form-text {
+        padding: 1.1% 0 0 4.7%; 
+        font-size: 88%;  
+    }
+    
+    .start-planning-button {
+        margin: 0 2.3% 0 0;
+        width: 25.7%; 
+        height: 62%; 
+    }
+
+    .start-planning-link {
+        font-size: 82%;
+        padding: 0 0.5% 0 0;
+    }
+}
