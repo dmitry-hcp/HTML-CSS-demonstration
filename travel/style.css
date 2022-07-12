@@ -151,6 +151,7 @@ body {
 
 .wrapper-header-preview {
     height: 765px;
+    /* margin: 0 0 0 0; */
     background-image: url("./assets/img/garrett-parker-DlkF4-dbCOU-unsplash\ 1.jpg");
     background-repeat: no-repeat; 
     /* background-size: 100%; */
@@ -362,7 +363,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 0 0 2px;
+    padding: 40px 0 20px 2px;
 }
 
 .find-button {
@@ -400,16 +401,19 @@ section {
     width: 100%;
     /* border: 1px solid black; */
 }
+
+.strories-button-wrapper {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
 .stories-wrapper {
     width: 100%;
-    display: flex;
-    /* margin: 37px 0 0 0; */
-    /* opacity: 0.3; */
-    /* border: 1px solid black; */
+    display: flex; 
 }
 
 .stories-title {
-    padding: 80px 0 40px 553px;
+    margin: 60px 0 0 0;
+    padding: 0 0 0 552px;
     font-family: "RedHatText-Medium"; 
     font-style: normal; 
     font-weight: 500;  
@@ -419,12 +423,25 @@ section {
     color: #f2785c;
 }
 
+.wrapper-stories-footer {
+    margin-bottom: auto; 
+    margin: 40px 0 0 0;
+    width: 100%;
+    background-image: url("assets/img/Rectangle33.jpg");
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+}
+
 .stories-img-container {
     display: flex; 
     flex-direction: column; 
     padding: 40px 0 0 120px; 
     gap: 30px; 
     /* z-index: 2; */
+}
+
+.stories-img-container-mobile {
+    display: none;
 }
 
 .story-img1 {
@@ -540,46 +557,72 @@ section {
     color: #0d606f; 
 }
 
-.wrapper-section-footer {
-    margin-bottom: auto; 
+.stories-button-container {
     width: 100%;
-    background-image: url("assets/img/Rectangle33.jpg");
-    background-repeat: no-repeat;
-    /* background-size: 100%; */
-}
-
-
-.footer-container {
-    width: 100%;
-    height: 33.65px;
-    margin: 63px 0 0 0;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    /* border: 1px solid firebrick; */
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 40px 2px;
+    /* margin: 0 0 60px 0; */
 }
 
-.footer-text {
-    padding: 0 0 0 588px;
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    padding: 15px 0 14px 0;
+}
+
+.copyright {
+    display: flex; 
+    align-items: center;
+    padding: 0 0 0 10px;
+    width: 30%; 
+    height: 100%;
+}
+
+.copyright {
+    padding: 0 0 0 10px;
     font-family: 'RedHatText-Medium';
     font-style: normal;
     font-weight: 500;
-    font-size: 17px;
-    line-height: 21px;
+    font-size: 16px;
+    text-decoration: none; 
     color: #ffffff;
 }
 
-/* .github-link {
-    padding: 0 10px; 
+.github-link {
+    padding: 0 0 0 10px;
+    font-family: 'RedHatText-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
     text-decoration: none; 
-    color: black;
+    color: #ffffff;
 }
-.school-logo {
-    padding: 0 0 0 20px;
-    width: 70px; 
-    height: 35px; 
-} */
 
+.school-logo {
+    padding: 0 0 0 10px;
+    width: 20%; 
+}
+
+.footer-text {
+    padding: 0 146px 0 0;
+    font-family: 'RedHatText-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px; 
+    color: #ffffff;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 110px 0 0;
+    width: 19%;
+}
 
 @media (max-width: 390px) {
     .logo-text,
