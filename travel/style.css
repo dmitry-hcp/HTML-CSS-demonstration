@@ -145,6 +145,10 @@ body {
     text-decoration: none;
 }
 
+.burger-pic {
+    display: none;
+}
+
 .wrapper-header-preview {
     height: 765px;
     background-image: url("./assets/img/garrett-parker-DlkF4-dbCOU-unsplash\ 1.jpg");
@@ -249,6 +253,10 @@ section {
     padding: 40px 0 0 0; 
 }
 
+.three-steps-img_mobile {
+    display: none;
+}
+
 .pic-1 {
     padding: 0 0 0 204px; 
 }
@@ -272,6 +280,10 @@ section {
     font-size: 20px; 
     line-height: 24px; 
     color: #0d606f;
+}
+
+.three-steps-text_mobile {
+    display: none;
 }
 
 .text-1 {
@@ -558,16 +570,27 @@ section {
     .button-path,
     .preview-section-title,
     .section-text,
+    .destinations,
     .destinations-img,
     .slider-ellips,
     .stories
     {
         display: none;
     }
+
+    .body {
+        width: 100%;
+    }
+
     .wrapper-header-preview {
         height: 251px;
         background-image: url("./assets/img/garrett-parker-DlkF4-dbCOU-unsplash_mobile.jpg");
         background-repeat: no-repeat; 
+        background-size: 100%;
+    }
+
+    .burger-pic {
+        display: flex;
     }
 
     .header {
@@ -614,5 +637,79 @@ section {
     .start-planning-link {
         font-size: 82%;
         padding: 0 0.5% 0 0;
+    }
+
+    .main {
+        margin-bottom: auto;
+    }
+
+    .main-container {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .steps {
+        width: 100%;
+    }
+
+    .three-steps-title {
+        padding: 0 0 0 0;
+        margin: 0.8% 8.6% 0 8.6%; 
+        padding: 0 0 0 14%;
+        font-size: 87.5%; 
+        /* line-height: 53px;  */
+    }
+    
+    .three-steps-img {
+        display: none; 
+    }
+
+    .three-steps-img_mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1% 0 0 0;
+        width: 100%;
+        /* gap: 30%; */
+    }
+
+    .pic-4 {
+        padding: 0 0 0 3.9%;
+    }
+
+    .pic-6 {
+        padding: 0 3.9% 0 0; 
+    }
+    
+    .three-steps-text {
+        display: none;
+    }
+
+    .three-steps-text_mobile {
+        display: flex;
+        justify-content: space-between;
+        margin: 4.9% 0 0 0;
+        width: 100%;
+        /* justify-content: flex-start;  */
+        /* align-items: center;  */
+        /* width: 100%; */
+        font-family: "Aleo"; 
+        font-style: normal; 
+        font-weight: 400; 
+        font-size: 61%;
+        color: #0d606f;
+    }
+
+    .text-4 {
+        padding: 0 0 0 3.9%;
+    }
+
+    .text-5 {
+
+    }
+
+    .text-6 {
+        padding: 0 3.0% 0 0;
     }
 }
