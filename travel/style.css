@@ -957,6 +957,7 @@ section {
 
     .inst-ico {
         padding: 0 0 0 6%;
+        /* margin: 0 0 0 0; */
     }
 
     @media (max-width: 378px) {
