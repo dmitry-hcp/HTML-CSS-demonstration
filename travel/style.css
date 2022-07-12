@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "RedHatText"; 
+    font-family: "RedHatText-Medium"; 
     src: url("assets/fonts/Red_Hat_Text/static/RedHatText-Medium.ttf"); 
     font-weight: 500; 
 }
@@ -108,7 +108,7 @@ body {
 }
 
 .nav-link {
-    font-family: "RedHatText"; 
+    font-family: "RedHatText-Medium"; 
     font-style: normal; 
     font-weight: 500; 
     font-size: 16px;
@@ -136,7 +136,7 @@ body {
 .login-link {
     width: 43px;
     height: 21px;
-    font-family: 'RedHatText'; 
+    font-family: 'RedHatText-Medium'; 
     font-style: normal; 
     font-weight: 500; 
     font-size: 16px;
@@ -219,7 +219,7 @@ section {
 }
 
 .start-planning-link {
-    font-family: "RedHatText"; 
+    font-family: "RedHatText-Medium"; 
     font-style: normal; 
     font-weight: 500; 
     font-size: 24px;
@@ -238,7 +238,7 @@ section {
 
 .three-steps-title {
     padding: 80px 0 0 414px;
-    font-family: "RedHatText"; 
+    font-family: "RedHatText-Medium"; 
     font-style: normal; 
     font-weight: 500;  
     font-size: 40px; 
@@ -298,9 +298,22 @@ section {
     padding: 0 0 0 161px;
 }
 
+.contry {
+    display: none; 
+    
+}
+
+.slider-arrows {
+    display: none; 
+}
+
+.slider-ellipse-mobile {
+    display: none; 
+}
+
 .destinations-title{
     padding: 97px 0 0 471px;
-    font-family: "RedHatText"; 
+    font-family: "RedHatText-Medium"; 
     font-style: normal; 
     font-weight: 500;  
     font-size: 40px; 
@@ -316,10 +329,6 @@ section {
     margin: 46px 0 0 0;
     gap: 60px; 
     overflow: hidden;
-}
-
-.destinations-img-mobile {
-    /* display: none; */
 }
 
 .slider-pic1 {
@@ -372,10 +381,14 @@ section {
     padding: 0 0 0 33px; 
 }
 
+.arrow-ico-mobile {
+    display: none;
+}
+
 
 .find-link {
     padding: 0 0 0 12px; 
-    font-family: "RedHatText"; 
+    font-family: "RedHatText-Medium"; 
     font-style: normal; 
     font-weight: 500; 
     font-size: 24px;
@@ -397,7 +410,7 @@ section {
 
 .stories-title {
     padding: 80px 0 40px 553px;
-    font-family: "RedHatText"; 
+    font-family: "RedHatText-Medium"; 
     font-style: normal; 
     font-weight: 500;  
     font-size: 40px; 
@@ -548,7 +561,7 @@ section {
 
 .footer-text {
     padding: 0 0 0 588px;
-    font-family: 'Red Hat Text';
+    font-family: 'RedHatText-Medium';
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -576,6 +589,7 @@ section {
     .section-text,
     .destinations-img,
     .slider-ellips,
+    .arrow-ico,
     .stories
     {
         display: none;
@@ -713,9 +727,9 @@ section {
     }
 
     .destinations-title{
-        padding: 0 0 0 0; 
-        margin: 1.1% 12% 0 12%; 
-        font-size: 87%; 
+        padding: 0 0 0 15%; 
+        margin: 0.8% 12% 0 12.5%; 
+        font-size: 87.5%; 
     }
 
     .destinations {
@@ -723,68 +737,67 @@ section {
     }
     
      .destinations-img-mobile{
-        /* display: flex; */
-        width: 100%;
+        margin: 0.6% 0 0 3.8%;
+        width: 92.4%;
         background-image: url("assets/img/Rectangle26_mobile.jpg");
         background-size: 100%;
+        border-radius: 16px;
     }
-    
-    /*.slider-pic1 {
-        margin: 0 0 0 -540px;
-        border-radius: 16px; 
-    }
-    
-    .slider-pic2 {
-        border-radius: 16px; 
-    }
-    
-    .slider-pic3 {
-        margin: 0 -540px 0 0;
-        border-radius: 16px; 
-    }
-    
-    .slider-ellips {
-        width: 100%;
+
+    .contry {
         display: flex; 
-        justify-content: center;
-        align-items: center; 
-        padding: 24px 0 0 2px;
-        gap: 10px; 
+        padding: 2.4% 0 0 4.4%;
+        font-family: "RedHatText-Medium"; 
+        font-style: normal;
+        font-weight: 500; 
+        font-size: 118%;
+        text-transform: uppercase;
+        color: #ffffff;
+        
+    }
+
+    .slider-arrows {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 16% 0 0 0;
+    }
+
+    .slider-arrow-left {
+        padding: 0 0 0 3%;
+    }
+
+    .slider-arrow-right {
+        padding: 0 3% 0 0;
+    }
+
+    .slider-ellipse-mobile {
+        display: flex;
+        width: 100%;
+        margin: 20.2% 0 3.4% 0;
+        padding: 0 0 0 45%; 
+        gap: 3%
     }
     
     .button-container {
+        margin: 2.4% 0 0 0;
         width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 40px 0 0 2px;
+        padding: 0 0 0 0;
     }
     
     .find-button {
+        justify-content: space-around;
+        width: 23.6%;
+        height: 12.3%;
+    }
+
+    .arrow-ico-mobile {
         display: flex; 
-        justify-content: flex-start; 
-        align-items: center; 
-        width: 228px; 
-        height: 59px; 
-        background-color: #0d606f; 
-        box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
-        border: none;
-        border-radius: 10px; 
+        padding: 0 0 0 8%; 
     }
-    
-    .arrow-ico {
-        padding: 0 0 0 33px; 
-    }
-    
     
     .find-link {
-        padding: 0 0 0 12px; 
-        font-family: "RedHatText"; 
-        font-style: normal; 
-        font-weight: 500; 
-        font-size: 24px;
-        line-height: 32px;
-        color: #ffffff;
-        text-decoration: none; 
-    } */
+        padding: 0 11% 0 0; 
+        font-size: 80%; 
+    }
 }
