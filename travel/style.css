@@ -318,6 +318,10 @@ section {
     overflow: hidden;
 }
 
+.destinations-img-mobile {
+    /* display: none; */
+}
+
 .slider-pic1 {
     margin: 0 0 0 -540px;
     border-radius: 16px; 
@@ -570,7 +574,6 @@ section {
     .button-path,
     .preview-section-title,
     .section-text,
-    .destinations,
     .destinations-img,
     .slider-ellips,
     .stories
@@ -655,8 +658,8 @@ section {
 
     .three-steps-title {
         padding: 0 0 0 0;
-        margin: 0.8% 8.6% 0 8.6%; 
-        padding: 0 0 0 14%;
+        margin: 0.8% 8.6% 0 22.6%; 
+        /* padding: 0 0 0 14%; */
         font-size: 87.5%; 
         /* line-height: 53px;  */
     }
@@ -705,11 +708,83 @@ section {
         padding: 0 0 0 3.9%;
     }
 
-    .text-5 {
-
-    }
-
     .text-6 {
         padding: 0 3.0% 0 0;
     }
+
+    .destinations-title{
+        padding: 0 0 0 0; 
+        margin: 1.1% 12% 0 12%; 
+        font-size: 87%; 
+    }
+
+    .destinations {
+        width: 100%;
+    }
+    
+     .destinations-img-mobile{
+        /* display: flex; */
+        width: 100%;
+        background-image: url("assets/img/Rectangle26_mobile.jpg");
+        background-size: 100%;
+    }
+    
+    /*.slider-pic1 {
+        margin: 0 0 0 -540px;
+        border-radius: 16px; 
+    }
+    
+    .slider-pic2 {
+        border-radius: 16px; 
+    }
+    
+    .slider-pic3 {
+        margin: 0 -540px 0 0;
+        border-radius: 16px; 
+    }
+    
+    .slider-ellips {
+        width: 100%;
+        display: flex; 
+        justify-content: center;
+        align-items: center; 
+        padding: 24px 0 0 2px;
+        gap: 10px; 
+    }
+    
+    .button-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0 0 2px;
+    }
+    
+    .find-button {
+        display: flex; 
+        justify-content: flex-start; 
+        align-items: center; 
+        width: 228px; 
+        height: 59px; 
+        background-color: #0d606f; 
+        box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+        border: none;
+        border-radius: 10px; 
+    }
+    
+    .arrow-ico {
+        padding: 0 0 0 33px; 
+    }
+    
+    
+    .find-link {
+        padding: 0 0 0 12px; 
+        font-family: "RedHatText"; 
+        font-style: normal; 
+        font-weight: 500; 
+        font-size: 24px;
+        line-height: 32px;
+        color: #ffffff;
+        text-decoration: none; 
+    } */
 }
