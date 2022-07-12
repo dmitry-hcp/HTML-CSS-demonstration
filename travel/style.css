@@ -469,6 +469,10 @@ section {
     /* padding: 0 0 0 42px;  */
 }
 
+.stories-container-mobile {
+    display: none; 
+}
+
 .story-title1 {
     font-family: "Aleo"; 
     font-style: normal; 
@@ -632,8 +636,12 @@ section {
     .section-text,
     .destinations-img,
     .slider-ellips,
-    .arrow-ico,
-    .stories
+    .arrow-ico, 
+    .stories-img-container,
+    .copyright, 
+    .footer-text, 
+    .stories-container
+
     {
         display: none;
     }
@@ -843,4 +851,118 @@ section {
         padding: 0 11% 0 0; 
         font-size: 80%; 
     }
+
+    .stories {
+        width: 100%;
+    }
+
+    .stories-title {
+        margin: 0 0 0 0; 
+        padding: 0.4% 0 0 35%; 
+        width: 100%;
+        height: 10%;
+        font-size: 87%;
+    }
+
+    .wrapper-stories-footer {
+        margin: -1.8% 0 0 0; 
+        width: 100%;
+        background-image: url("assets/img/Rectangle28_mobile.jpg");
+    }
+
+    .stories-wrapper {
+        padding: 2.5% 0 0 0;
+        width: 100%;
+    }
+
+    .stories-img-container-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 0 0 3.8%;
+        gap: 10;
+    }
+
+    .story-img-mobile {
+        margin: 0 0 9.5% 0;
+        filter: drop-shadow(0px 4px 4px #0D606F);
+        border-radius: 16px;
+        
+    }
+
+    .stories-container-mobile {
+        display: flex; 
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1.28% 3.8% 0 2.5%;
+        gap: 2%; 
+    }
+
+    .story-title-mobile {
+        font-family: "Aleo-Bold"; 
+        font-style: normal; 
+        font-weight: 400; 
+        font-size: 68.7%; 
+        color: #0d606f; 
+    }
+
+    .story-text-mobile {
+        padding: 0 0 5.1% 0; 
+        font-family: "Aleo"; 
+        font-style: normal; 
+        font-weight: 400;
+        font-size: 56%; 
+        color: #0d606f; 
+    }
+
+    .story-link-mobile {
+        font-family: "Aleo"; 
+        font-style: normal; 
+        font-weight: bold;
+        font-size: 103%; 
+        color: #0d606f; 
+    }
+
+    .stories-button-container {
+        padding: 0 0 0 0; 
+        margin: -1.1% 0 0 0;
+    }
+
+    .stories-button {
+        justify-content: space-around;
+        margin: 0 0 3% 0;
+        width: 23.6%;
+        height: 12.3%;
+        display: flex; 
+        align-items: center; 
+        background-color: #0d606f; 
+        box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+        border: none;
+        border-radius: 10px; 
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social-media-icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 0 0 0;
+        width: 38.6%;
+    }
+
+    .inst-ico {
+        padding: 0 0 0 6%;
+    }
+
+    @media (max-width: 378px) {
+        .social-media-icons {
+            background-color: black;
+        }
+    }
+
 }
