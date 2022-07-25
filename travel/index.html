@@ -6,9 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="popup.css">
     <link rel="icon" href="assets/img/favicon.ico">
 </head>
 <body>
+    <!-- <script src="sscript.js"></script> -->
+    <div class="pop-up hide">
+        <div class="pop-up-container">
+            <div class="login-container">
+                <input type="text" value="" id="login">
+                <input type="text" value="" id="pass">
+                <button class="sign-in">push</button>
+            </div>
+            <p class="register-link">Register</p>
+        </div>
+    </div>
     <div class="wrapper-header-preview">
         <header class="header">
             <div class="header-container">
@@ -25,7 +37,7 @@
                     </ul>
                 </nav>
                 <p class="button-path">
-                    <button class="login-button"><a href="" class="login-link">Login</a></button>
+                    <button class="login-button"><p class="login-link">Login</p></button>
                 </p> 
                 <img  class="burger-pic" src="assets/img/burger.svg" alt="burger menu pic">
             </div>      
@@ -252,5 +264,6 @@
             </footer>
         </div>
     </section>           
+    <script src="sscript.js"></script>
 </body>
 </html>
