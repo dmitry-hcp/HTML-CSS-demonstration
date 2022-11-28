@@ -16,6 +16,14 @@ const sign = document.querySelector('.sign-in-button');
 const signText1 = document.querySelector('.sign-in-text1');
 const signText2 = document.querySelector('.sign-in-text2');
 
+// ///burger
+// const burgerMenu = document.querySelector('.burger-pic');
+// const
+// // const burgerMenu = document.querySelector('.burger-menu');
+
+// burgerMenu.addEventListener('click', () => {
+//     burgerMenu.classList.toggle('hide');
+// })
 
 loginButton.addEventListener('click', () => {
     popup.classList.toggle('hide');
